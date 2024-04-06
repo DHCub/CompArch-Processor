@@ -2626,11 +2626,42 @@
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
   </circuit>
+  <circuit name="Data Path">
+    <a name="circuit" val="Data Path"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
   <circuit name="ID">
     <a name="circuit" val="ID"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="190" stroke="#000000" stroke-width="2" width="378" x="220" y="181"/>
+      <text font-family="SansSerif" font-size="20" font-weight="bold" text-anchor="middle" x="416" y="283">Instruction Decoder</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="257" y="284">data input</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="244" y="243">clk</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="255" y="334">enable</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="281" y="358">opcode</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="331" y="358">Rs</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="367" y="356">Rt</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="411" y="359">Rd</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="459" y="362">func code</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="509" y="360">const</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="560" y="360">destino</text>
+      <circ-port height="8" pin="100,280" width="8" x="216" y="326"/>
+      <circ-port height="8" pin="100,310" width="8" x="216" y="236"/>
+      <circ-port height="8" pin="160,400" width="8" x="216" y="276"/>
+      <circ-port height="10" pin="200,590" width="10" x="275" y="365"/>
+      <circ-port height="10" pin="380,590" width="10" x="325" y="365"/>
+      <circ-port height="10" pin="540,590" width="10" x="365" y="365"/>
+      <circ-port height="10" pin="710,590" width="10" x="405" y="365"/>
+      <circ-port height="10" pin="890,590" width="10" x="455" y="365"/>
+      <circ-port height="10" pin="880,690" width="10" x="505" y="365"/>
+      <circ-port height="10" pin="880,820" width="10" x="555" y="365"/>
+      <circ-anchor facing="east" height="6" width="6" x="437" y="237"/>
+    </appear>
     <wire from="(210,460)" to="(210,470)"/>
     <wire from="(220,410)" to="(220,420)"/>
     <wire from="(450,380)" to="(500,380)"/>
