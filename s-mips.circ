@@ -8710,7 +8710,6 @@
     <wire from="(1110,720)" to="(1220,720)"/>
     <wire from="(860,1680)" to="(910,1680)"/>
     <wire from="(790,1760)" to="(850,1760)"/>
-    <wire from="(970,1300)" to="(1030,1300)"/>
     <wire from="(310,2170)" to="(310,2180)"/>
     <wire from="(1690,510)" to="(1690,520)"/>
     <wire from="(1740,1760)" to="(1790,1760)"/>
@@ -8728,6 +8727,7 @@
     <wire from="(1670,870)" to="(1710,870)"/>
     <wire from="(1440,2000)" to="(1440,2720)"/>
     <wire from="(950,1480)" to="(1070,1480)"/>
+    <wire from="(1040,1270)" to="(1040,1300)"/>
     <wire from="(310,2140)" to="(310,2150)"/>
     <wire from="(800,550)" to="(800,580)"/>
     <wire from="(1700,1210)" to="(1750,1210)"/>
@@ -8828,6 +8828,7 @@
     <wire from="(420,1800)" to="(430,1800)"/>
     <wire from="(260,2440)" to="(270,2440)"/>
     <wire from="(340,460)" to="(990,460)"/>
+    <wire from="(970,1300)" to="(1040,1300)"/>
     <wire from="(410,890)" to="(490,890)"/>
     <wire from="(1730,370)" to="(1760,370)"/>
     <wire from="(990,2200)" to="(1010,2200)"/>
@@ -8865,14 +8866,12 @@
     <wire from="(210,2110)" to="(210,2250)"/>
     <wire from="(1000,2290)" to="(1040,2290)"/>
     <wire from="(860,330)" to="(860,400)"/>
-    <wire from="(1030,1270)" to="(1030,1300)"/>
     <wire from="(50,2720)" to="(1440,2720)"/>
     <wire from="(730,1930)" to="(730,1960)"/>
     <wire from="(290,1740)" to="(330,1740)"/>
     <wire from="(220,2320)" to="(250,2320)"/>
     <wire from="(630,2100)" to="(650,2100)"/>
     <wire from="(1090,1610)" to="(1100,1610)"/>
-    <wire from="(1030,1300)" to="(1100,1300)"/>
     <wire from="(1730,1610)" to="(1740,1610)"/>
     <wire from="(400,1240)" to="(410,1240)"/>
     <wire from="(880,1760)" to="(880,1820)"/>
@@ -9085,6 +9084,7 @@
     <wire from="(680,550)" to="(680,580)"/>
     <wire from="(630,2100)" to="(630,2130)"/>
     <wire from="(1670,1460)" to="(1720,1460)"/>
+    <wire from="(1040,1300)" to="(1100,1300)"/>
     <wire from="(780,1770)" to="(780,1790)"/>
     <wire from="(950,1460)" to="(950,1480)"/>
     <wire from="(710,1180)" to="(950,1180)"/>
@@ -9795,10 +9795,6 @@
       <a name="label" val="StoreEnd"/>
     </comp>
     <comp loc="(220,1680)" name="1-bit Demultiplexer"/>
-    <comp lib="0" loc="(1040,1270)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
-    </comp>
     <comp lib="0" loc="(630,810)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ori"/>
@@ -9910,6 +9906,10 @@
     <comp loc="(830,1670)" name="1-bit Demultiplexer"/>
     <comp lib="0" loc="(620,1300)" name="Tunnel">
       <a name="label" val="BranchEnd"/>
+    </comp>
+    <comp lib="0" loc="(1030,1270)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(1670,1320)" name="Tunnel">
       <a name="facing" val="east"/>
