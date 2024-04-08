@@ -10351,7 +10351,6 @@
       <a name="label" val="addi"/>
     </comp>
     <comp lib="4" loc="(840,1900)" name="D Flip-Flop">
-      <a name="trigger" val="high"/>
       <a name="label" val="Halt"/>
     </comp>
     <comp lib="0" loc="(1670,1320)" name="Tunnel">
@@ -10401,6 +10400,9 @@
       <a name="facing" val="east"/>
       <a name="width" val="2"/>
       <a name="label" val="ALUB.stack"/>
+    </comp>
+    <comp lib="0" loc="(920,1900)" name="Tunnel">
+      <a name="label" val="haltOut"/>
     </comp>
     <comp lib="1" loc="(1730,440)" name="OR Gate">
       <a name="width" val="4"/>
@@ -10973,9 +10975,6 @@
     <comp lib="0" loc="(210,2340)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ALUA.push"/>
-    </comp>
-    <comp lib="0" loc="(920,1900)" name="Tunnel">
-      <a name="label" val="haltOut"/>
     </comp>
     <comp lib="0" loc="(140,2440)" name="Constant">
       <a name="facing" val="south"/>
